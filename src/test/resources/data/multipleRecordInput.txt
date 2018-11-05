@@ -1,0 +1,16 @@
+001 7461413
+245 1 0 $a Epitaph : $b the Northam Road Protestant Cemetery : George Town, Penang / $c Marcus Langdon.
+650   0 $a Epitaphs $z Malaysia $z Pulau Pinang (State)
+650   0 $a Inscriptions $z Malaysia $z Pulau Pinang (State)
+650   0 $a Christian cemeteries $z Malaysia $z Pulau Pinang (State)
+
+001 3093657
+245 1 0 $a Rites of belonging : $b memory, modernity, and identity in a Malaysian Chinese community / $c Jean DeBernardi.
+650   0 $a Chinese $z Malaysia $z Pinang $x Ethnic identity.
+650   0 $a Chinese $z Malaysia $z Pinang $x Rites and ceremonies.
+650   0 $a Chinese $z Malaysia $z Pinang $x Societies, etc.
+
+001 3416787
+245 0 0 $a Penyata Juru Odit Negara. $p Negeri Pulau Pinang.
+650   0 $a Finance, Public $z Malaysia $z Pinang $x Accounting $x Periodicals.
+
