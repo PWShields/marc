@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-       <Csv msg="CSV Download Demonstrator"/>
+       <Csv msg="Marc Converter Demonstrator"/>
   </div>
 </template>
 
