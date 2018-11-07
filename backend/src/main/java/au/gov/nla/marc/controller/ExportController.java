@@ -42,7 +42,7 @@ public class ExportController {
 
         ICsvListWriter csvListWriter = null;
         try {
-            csvListWriter = new CsvListWriter(response.getWriter(), CsvPreference.STANDARD_PREFERENCE);
+            csvListWriter = new CsvListWriter(response.getWriter(), CsvPreference.TAB_PREFERENCE);
 
             csvListWriter.write(outputData.getHeaderRow().getColumnHeadings());
             for (TabbedResultRow row : resultRows) {
