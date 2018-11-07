@@ -4,7 +4,7 @@ import au.gov.nla.marc.domain.output.TabbedResultRow;
 import au.gov.nla.marc.domain.output.TabbedResultTable;
 import au.gov.nla.marc.service.MarcTextServiceImpl;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.supercsv.io.CsvListWriter;
 import org.supercsv.io.ICsvListWriter;
@@ -24,7 +24,7 @@ public class ExportController {
         this.marcTextService = marcTextService;
     }
 
-    @GetMapping(value = "download/csv", produces = "text/csv")
+    @PostMapping(value = "download/csv", produces = "text/csv")
     public void downLoadCSV(HttpServletResponse response) throws IOException {
 
         TabbedResultTable outputData = marcTextService.transFormToTabbedOutPut("/Users/pshields/Documents/IntellijProjects/marc/backend/src/test/resources/data/manyRecordInput.txt");

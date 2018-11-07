@@ -7,10 +7,9 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.puffinpowered</groupId>
-        <artifactId>organisations</artifactId>
+        <groupId>au.gov.nla</groupId>
+        <artifactId>marc</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
