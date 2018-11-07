@@ -27,7 +27,9 @@ public class ExportController {
     @GetMapping(value = "download/csv", produces = "text/csv")
     public void downLoadCSV(HttpServletResponse response) throws IOException {
 
-        TabbedResultTable outputData = marcTextService.transFormToTabbedOutPut("/Users/pshields/Documents/IntellijProjects/marc/backend/src/test/resources/data/multipleRecordInput.txt");
+        TabbedResultTable outputData = marcTextService.transFormToTabbedOutPut("/Users/pshields/Documents/IntellijProjects/marc/backend/src/test/resources/data/manyRecordInput.txt");
+
+// TabbedResultTable outputData = marcTextService.transFormToTabbedOutPut("/Users/pshields/Documents/IntellijProjects/marc/backend/src/test/resources/data/multipleRecordInput.txt");
 
         String csvFileName = "marcTabbed.csv";
         response.setContentType("text/csv");

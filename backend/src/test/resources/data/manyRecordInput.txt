@@ -1,0 +1,745 @@
+001 3416808
+245 1 0 $a Lapuran Juru Odit Negara: $p Negeri Pulau Pinang.
+650   0 $a Finance, Public $z Pinang $x Accounting $x Periodicals.
+
+001 3416787
+245 0 0 $a Penyata Juru Odit Negara. $p Negeri Pulau Pinang.
+650   0 $a Finance, Public $z Malaysia $z Pinang $x Accounting $x Periodicals.
+
+001 7461413
+245 1 0 $a Epitaph : $b the Northam Road Protestant Cemetery : George Town, Penang / $c Marcus Langdon.
+650   0 $a Epitaphs $z Malaysia $z Pulau Pinang (State)
+650   0 $a Inscriptions $z Malaysia $z Pulau Pinang (State)
+650   0 $a Christian cemeteries $z Malaysia $z Pulau Pinang (State)
+
+001 3093657
+245 1 0 $a Rites of belonging : $b memory, modernity, and identity in a Malaysian Chinese community / $c Jean DeBernardi.
+650   0 $a Chinese $z Malaysia $z Pinang $x Ethnic identity.
+650   0 $a Chinese $z Malaysia $z Pinang $x Rites and ceremonies.
+650   0 $a Chinese $z Malaysia $z Pinang $x Societies, etc.
+
+001 4312504
+245 1 4 $a The Chinese in Penang : $b a pictorial history / $c [Tan Kim Hong ; photography: Ang Sin Hup and Lim Gaik Siang]
+650   0 $a Chinese $z Pinang $x History $v Pictorial works.
+
+001 3667379
+245 1 0 $a Penang trams, trolleybuses & railways : $b municipal transport history, 1880s-1963 / $c Ric Francis & Colin Ganley ; supported by Majlis Perbandaran Pulau Pinang, Municipal Council of Penang Island (MPPP).
+650   0 $a Street-railroads $z Malaya $x History.
+650   0 $a Trolley buses $z Malaya $x History.
+650   0 $a Transportation $z Malaysia $z Pinang Island (Pinang) $x History.
+
+001 1143672
+245 1 0 $a Penang artists, 1920 to 1990 / $c Tan Chee Khuan.
+650   0 $a Painters $z Malaysia $z Pinang $x Biography.
+650   0 $a Painting, Malaysian $z Malaysia $z Pinang $y 20th century.
+
+001 358208
+245 1 0 $a Laporan tahunan / $c Kesyahbandaran Tanjung Pinang.
+650   0 $a Harbors $z Indonesia $z Tanjung Pinang $v Periodicals.
+
+001 3122749
+245 1 0 $a Laporan tahunan / $c Kepala Pelabuhan Tanjung Pinang.
+650   0 $a Harbors $z Indonesia $z Tanjung Pinang $v Periodicals
+
+001 1107341
+245 1 2 $a A guidebook to PHD : $b Penang Hokkien Dialect / $c Tan Choon Hoe.
+650   0 $a Hokkien dialects $z Malaysia $z Pinang.
+
+001 6569935
+245 1 4 $a The Chulia in Penang : $b patronage and place-making around the Kapitan Kling Mosque 1786-1957 / $c Khoo Salma Nasution.
+650   0 $a Tamil (Indic people) $z Malaysia $z Pulau Pinang (State) $x History.
+650   0 $a Tamil (Indic people) $z Malaysia $z Pulau Pinang (State) $x Social conditions.
+650   0 $a Tamil (Indic people) $z Malaysia $z Pulau Pinang (State) $x Social life and customs.
+
+001 526186
+245 0 0 $6 880-01 $a Guang hua ri bao, Bincheng xin bao = $b Kwong wah yit poh & Penang sin poe.
+650   0 $a Chinese $z Pinang $v Newspapers.
+650   0 $a Chinese $z Malaysia $v Newspapers.
+
+001 1055440
+245 1 0 $a Demography and the development of Penang Island : $b survey on family, women and work / $c Tiun Ling Ta, Marsitah Mohd. Radzi.
+650   0 $a Women in development $z Malaysia $z Penang.
+650   0 $a Family demography $z Malaysia $z Penang.
+650   0 $a Demography $z Malaysia $z Penang.
+
+001 275156
+245 1 0 $a Christian cemeteries of Penang & Perak / $c by Alan Harfield.
+650   0 $a Christian cemeteries $z Malaysia $z Pinang Island (Pinang)
+650   0 $a Christian cemeteries $z Malaysia $z Perak.
+650   0 $a British $z Malaysia $z Pinang Island (Pinang)
+650   0 $a British $z Malaysia $z Perak.
+
+001 1974362
+245 1 4 $a The economics of fishing : $b a dynamic approach / $c G.R. Munro and C.W. Clark.
+650   0 $a Fish trade $z Malaysia $z Kedah $x Mathematical models.
+650   0 $a Fish trade $z Malaysia $z Pinang $x Mathematical models.
+650   0 $a Fisheries $x Economic aspects $x Mathematical models.
+
+001 4734050
+245 0 0 $a Penang and its region : $b the story of an Asian entrepôt / $c edited by Yeoh Seng Guan ... [et al.].
+650   0 $a Businesspeople $z Malaysia $z Pinang $x History.
+650   0 $a Chinese $z Malaysia $z Pinang $x History.
+
+001 4969867
+245 1 0 $a Karpal Singh : $b true Malaysian / $c by Melissa Loovi.
+650   0 $a Politicians $z Malaysia $z Penang $v Biography.
+650   0 $a Politicians $z Malaysia $v Biography.
+
+001 6896906
+245 1 0 $6 880-02 $a Zou jin Yi xing gong si / $c Chen Jianhong = The story of Ghee Hin Kongsi in Penang / Tan Kim Hong.
+650   0 $a Secret societies $z Malaysia $z Pulau Pinang (State) $x History.
+650   0 $a Chinese $z Malaysia $z Pulau Pinang (State) $x Societies, etc. $x History.
+
+001 384183
+245 1 0 $a Penang sketchbook / $c watercolours by Chin Kon Yit ; text by Chen Voon Fee.
+650   0 $a Historic buildings $z Malaysia $z Pinang Island $v Pictorial works.
+650   0 $a Architecture $z Malaysia $z Pinang Island $x History $v Pictorial works.
+650   0 $a Watercolor painting $z Malaysia $z Pinang Island.
+
+001 6009446
+245 1 2 $a A description of Prince of Wales Island, in the streights of Malacca $h [electronic resource] : $b with its real and probable advantages and sources to recommend it as a marine establishment / $c by Home Popham.
+650   0 $a Harbors $z Malaysia $z Pinang Island (Pinang)
+
+001 169388
+245 1 0 $a Rang plan bahagian-bahagian pilihanraya parlimen dan negeri $h [cartographic material] : $b Pulau Pinang.
+650   0 $a Election districts $z Malaysia $z Pinang $x Maps.
+
+001 2149804
+245 0 0 $a Buku panduan perkhidmatan kerajikan, Pulau Pinang = $b Directory of welfare services, Penang / $c edited by Wazir Jahan Karim.
+650   0 $a Social service $z Malaysia $z Pinang $x Societies, etc. $x Directories.
+650   0 $a Public welfare $z Malaysia $z Pinang $x Directories.
+
+001 6395302
+245 1 0 $6 880-02 $a Bingcheng tou tiao lu dou mu gong jiu huang da di qing zhu cheng li yi bai ling wu nian ji li shi hui wu shi zhou nian jin xi ji nian te kan.
+650   0 $a Chinese $z Malaysia $z Pinang $x Ethnic identity.
+650   0 $a Chinese $z Malaysia $z Pinang $x Rites and ceremonies.
+650   0 $a Chinese $z Malaysia $z Pinang $x Societies, etc.
+
+001 1573540
+245 1 4 $a The Star : $b the people's paper.
+650   0 $a Malaysian newspapers $z Pinang.
+650   0 $a English newspapers $z Pinang.
+
+001 3416805
+245 1 0 $a Laporan Juru Odit Negara: $p Negeri Pulau Pinang.
+650   0 $a Finance, Public $z Pinang $x Accounting $x Periodicals.
+
+001 818207
+245 1 0 $a Warta kerajaan. $p Tambahan enactment / $c Negeri Palau Pinang.
+650   0 $a Law $z Pinang $v Periodicals.
+
+001 6813548
+245 1 4 $a The unsung patriot : $b memoirs of Wong Pow Nee / $c Peter Wong Tet Phin and Koay Su Lyn.
+650   0 $a Chief ministers $z Malaysia $z Pulau Pinang (State) $v Biography.
+650   0 $a Politicians $z Malaysia $z Pulau Pinang (State) $v Biography.
+650   0 $a Ambassadors $z Malaysia $v Biography.
+
+001 3674061
+245 1 0 $a Hokkien rhymes and ditties : $b down memeory lane / $c compiled & published by Raymond Kwok ; all illustrations by Calvin Kwok Kah Meng.
+650   0 $a Hokkien dialects $z Malaysia $z Pinang.
+650   0 $a Riddles, Chinese $z Malaysia.
+
+001 730103
+245 1 0 $a Historic port cities of the Indian Ocean littoral : $b the resolution of planning conflicts and the development of a tourist resource potential / $c R. Jones and B.J. Shaw.
+650   0 $a City planning $z Western Australia $z Fremantle.
+650   0 $a City planning $z Pinang $z George Town.
+650   0 $a Tourism $z Western Australia $z Fremantle.
+650   0 $a Tourism $z Pinang $z George Town.
+
+001 6294428
+245 1 0 $a Kapitan Chung Keng Kwee's shen zhi jia shu yu hau ji zhan / $c Tan Yeow Wooi.
+650   0 $a Heroes $z Perak.
+650   0 $a Architecture, Domestic $z Malaysia $z Pinang.
+650   0 $a Ethnic architecture $z Malaysia $z Pinang.
+
+001 6850362
+245 1 0 $a Malaysia's environmental NGOs : $b case studies for communication and participatory approach toward sustainability in Penang / $c Hamoon Khelghat-Doost.
+650   0 $a Environmental management $z Malaysia $z Pulau Pinang (State)
+650   0 $a Non-governmental organizations $z Malaysia $z Pulau Pinang (State)
+650   0 $a Sustainability $z Malaysia $z Pulau Pinang (State)
+650   0 $a Sustainable development $z Malaysia $z Pulau Pinang (State)
+
+001 37068
+245 0 0 $a Shame secrecy and silence : $b study of rape in Penang / $c co-ordinated and edited by Rohana Ariffin.
+650   0 $a Rape $z Pinang.
+650   0 $a Women $x Crimes against $z Pinang.
+
+001 4515754
+245 0 0 $a Bestowing luck & prosperity on all = $b Fu bi zhong sheng.
+650   0 $a Temples, Chinese $z Malaysia $z Pinang $x History.
+650   0 $a Temples, Chinese $z Malaysia $z Pinang.
+
+001 2880536
+245 1 0 $a Malay peasants coping with the world : $b breaking the community circle? / $c Rodolphe de Koninck.
+650   0 $a Farmers $z Pinang $z Kampong Paya Keladi $x Economic conditions.
+650   0 $a Farmers $z Kedah $z Matang Pinang $x Economic conditions.
+
+001 3792481
+245 1 0 $6 880-01 $a Binlangyu Hua ren yan jiu / $c Chen Jianhong, Huang Xianqiang zhu bian.
+650   0 $a Chinese $z Pinang $x History.
+
+001 2047134
+245 0 0 $6 880-01 $a Guang hua ri bao $h [microform] = $b Kwong wah yit poh = Chinese daily news.
+650   0 $a Chinese $z Pinang $v Newspapers.
+650   0 $a Chinese $z Malaysia $v Newspapers.
+
+001 3776188
+245 1 0 $a Images of the Jawi Peranakan of Penang : $b assimilation of the Jawi Peranakan community into the Malay society / $c Halimah Mohd. Said & Zainab Abdul Majid.
+650   0 $a Peranakan (Asian people) $z Malaysia $z Pinang $x Cultural assimilation.
+650   0 $a Peranakan (Asian people) $z Malaysia $z Pinang $x Social life and customs.
+
+001 807535
+245 1 0 $a Kek Lok Si : $b Temple of Paradise.
+650   0 $a Buddist temples $z Malaysia $z Penang.
+650   0 $a Temples, Chinese $z Malaysia $z Penang.
+
+001 5121135
+245 1 0 $a Giving our best : $b the story of St. George's Girls' School, Penang, 1885-2010 / $c Khoo Salma Nasution, Alison Hayes, Sehra Yeap Zimbulis.
+650   0 $a Education, Secondary $z Malaysia $z Pinang.
+650   0 $a Girls' schools $z Malaysia $z Pinang $x History.
+650   0 $a High schools $z Malaysia $z Pinang $x History.
+
+001 2871938
+245 1 0 $a Cascade aux environs de George's Town, Pulo Penang $h [picture] / $c dessine par Fisquet; lith. par Bichebois; fig. par Bayot.
+650   0 $a Waterfalls $z Pinang.
+
+001 857979
+245 1 0 $a Penang views 1770-1860 / $c Lim Chong Keat.
+650   0 $a History in art $z Malaysia $z Penang.
+
+001 4384575
+245 1 0 $a Malayan adventure : $b an Australian Army family in Malaya during the Emergency / $c Len Johnson, Beth Johnson.
+650   0 $a Army spouses $z Pinang $v Biography.
+
+001 717321
+245 1 0 $a Pembahagian kerja antarabangsa : $b industri semi-konduktor di Pulau Pinang / $c Rajah Rasiah.
+650   0 $a Semicondutor industry $z Malaysia $z Pinang.
+650   0 $a Labor supply $z Malaysia $z Pinang.
+
+001 4497590
+245 1 0 $6 880-02 $a Binglang Yu Hua ren yan jiu / $c Chen Jianhong, Huang Xianqiang zhu bian.
+650   0 $a Chinese $z Malaysia $z Pinang $x History $v Congresses.
+650   0 $a Chinese $x Education $z Malaysia $z Pinang $x History $v Congresses.
+
+001 4197566
+245 0 4 $a The mutiara masterplan / $c editor, Ken Yeang.
+650   0 $a Architecture $z Malaysia $z Pinang.
+650   0 $a Architecture $z Malaysia $z Pinang $v Designs and plans.
+650   0 $a Land use, Urban $z Malaysia $z Pinang.
+650   0 $a City planning $z Malaysia $z Pinang.
+650   0 $a Urban renewal $z Malaysia $z Pinang.
+
+001 1835776
+245 0 0 $a [Eastern side of Pulo Penang or Prince of Wales Island, with Fort Cornwallis] $h [picture]
+650   0 $a Sailing ships $z Pinang.
+
+001 6447948
+245 0 0 $6 880-01 $a Bingzhou zong ci jia miao jian shi = $b Chinese clans in Penang : a concise history.
+650   0 $a Clans $z Malaysia $z Penang.
+650   0 $a Kinship $z Malaysia $z Penang.
+650   0 $a Names, Chinese.
+650   0 $a Ancestor worship $z Malaysia $z Penang.
+
+001 3294471
+245 1 4 $a The Penang Po Leung Kuk : $b Chinese women, prostitution & a welfare organisation / $c by Neil Khor Jin Keong, Khoo Keat Siew ; with research assistance by Izrin Muaz Md. Adnan.
+650   0 $a Public welfare $z Malaysia $z Pulau Pinang $x History.
+
+001 6847040
+245 1 0 $a Getting by : $b class and state formation among Chinese in Malaysia / $c Donald M. Nonini.
+650   0 $a Chinese $z Malaysia $z Bukit Mertajam (Pulau Pinang) $x Ethnic identity.
+650   0 $a Chinese $z Malaysia $z Bukit Mertajam (Pulau Pinang) $x Politics and government.
+650   0 $a Ethnology $z Malaysia $z Bukit Mertajam (Pulau Pinang)
+650   0 $a Nationalism $z Malaysia $z Bukit Mertajam (Pulau Pinang)
+650   0 $a Social classes $z Malaysia $z Bukit Mertajam (Pulau Pinang)
+
+001 2505185
+245 1 2 $a A description of Prince of Wales Island, in the streights of Malacca $h [microform] : $b with its real and probable advantages and sources to recommend it as a marine establishment / $c by Home Popham.
+650   0 $a Harbors $z Pinang Island (Pinang)
+
+001 4237353
+245 1 0 $a Masa depan Melayu Pulau Pinang / $c Jamelah Bakar.
+650   0 $a Malays (Asian people) $z Malaysia $z Penang $x Social conditions.
+650   0 $a Malays (Asian people) $z Malaysia $z Penang $x Economic conditions.
+
+001 3623824
+245 0 0 $a To heal the sick : $b the story of healthcare and doctors in Penang, 1786 to 2004 / $c editor, Ong Hean Teik.
+650   0 $a Physicians $z Malaysia $z Pinang.
+650   0 $a Medical care $z Malaysia $z Pinang.
+650   0 $a Health.
+
+001 3510976
+245 1 0 $a Penang postcard collection 1899-1930s / $c Khoo Salma Nasution & Malcolm Wade.
+650   0 $a Postcards $x Collectors and collecting $z Pinang.
+
+001 4387772
+245 1 4 $a The gift of rain / $c Tan Twan Eng.
+650   0 $a Racially mixed people $z Malaysia $z Pinang $v Fiction.
+
+001 1349622
+245 1 0 $a Austral / $c RAAF School.
+650   0 $a Schools $z Pinang $x Periodicals.
+650   0 $a Children of military personnel $x Education $z Australia.
+650   0 $a Australians $z Pinang $x Periodicals.
+
+001 6101876
+245 1 0 $6 880-02 $a Lao Bing cheng lu zhi ming : $b lu ming de gu shi / $c Du Zhongquan zhu.
+650   0 $a Street names $z Malaysia $z Pinang $x History.
+
+001 4938058
+245 1 0 $6 880-02 $a Bincheng Zhong Ling zhong xue xiao shi lun ji, 1917-1957 / $c [Wang Kangding, Ye Zhongling, Chen Wencha zhuan zhu ; Chen Rongzhao zhu bian].
+650   0 $a Education, Secondary $z Malaysia $z Pinang.
+
+001 4975407
+245 1 4 $a The South Indian Muslim Community and the evolution of the Jawi Peranakan in Penang up to 1948 / $c Helen Fujimoto.
+650   0 $a East Indians $x Ethnicity $z Malaysia $z Pinang.
+650   0 $a Minorities $z Malaysia $z Pinang $x History.
+650   0 $a Muslims $x Ethnicity $z Malaysia $z Pinang.
+650   0 $a Peranakan (Asian people)
+650   0 $a Social interaction $z Malaysia $z Pinang $x History.
+
+001 4470694
+245 1 0 $a My island in the sun : $b a Penang perspective : v. 11 / $c Khor Cheang Kee.
+650   0 $a City and town life $z Malaysia $z Pinang.
+
+001 1821496
+245 1 0 $a Managerial values of Penang Island municipal council officers : $b a preliminary report / $c Lim Hong Hai, Ali Haidar & Len Pullin.
+650   0 $a Executives $z Malaysia $z Penang $x Attitudes.
+650   0 $a Values $z Malaysia $z Penang.
+
+001 3911706
+245 1 0 $a Penang : $b through gilded doors / $c Julia de Bierre ; photography by James Bain Smith.
+650   0 $a Pinang Island (Pinang) $x History.
+
+001 6854957
+245 1 0 $a Memento mori : $b art, medicine & the body / $c Lauren Black ; catalogue essay, Peter Timms.
+650   0 $a Memento mori $z Tasmania $v Exhibitions.
+650   0 $a Medicine and art $z Tasmania $v Exhibitions.
+650   0 $a Human body $z Tasmania $x History $y 19th century $v Exhibitions.
+650   0 $a Medicine, Chinese $z Malaysia $z Pulau Pinang (State) $x History $v Exhibitions.
+650   0 $a Human dissection $z Tasmania $x History $y 19th century.
+650   0 $a Diagnostic specimens $v Exhibitions.
+650   0 $a Death in art $v Exhibitions.
+650   0 $a Medical museums $z Tasmania $x History.
+650   0 $a Medical education $z Tasmania $x History.
+650   0 $a Art, Australian $z Tasmania $y 21st century $v Pictorial works.
+650   0 $a Exhibitions $z Tasmania $z Hobart.
+
+001 832014
+245 1 0 $a Warta kerajaan. $p Tambahan rang undang= $b Government of Penang gazette / $c Negeri Pulau Pinang.
+650   0 $a Bills, Legislative $z Pinang $v Periodicals.
+650   0 $a Law $z Pinang $v Periodicals.
+
+001 4668621
+245 1 0 $a Malaya $h [cartographic material]
+650   0 $a Roads $z Malaysia $z Malaya $v Maps.
+650   0 $a Roads $z Singapore $v Maps.
+650   0 $a Streets $z Malaysia $z Kuala Lumpur $v Maps.
+650   0 $a Streets $z Malaysia $z Ipoh (Perak) $v Maps.
+650   0 $a Streets $z Malaysia $z Pinang $v Maps.
+
+001 6940269
+245 1 0 $a Perniagaan haji di pulau pinang dan dokumentasi sultan kedah / $c pengarang Siti Amirah binti Abdullah, Mohd Kasturi Nor bin Abd Aziz ; Pengenalan dan Suntingan Oleh Abu Talib Ahmad.
+650   0 $a Muslim pilgrim and pilgrimages $z Saudi Arabia $z Mecca.
+650   0 $a Business $z Malaysia $z Pulau Pinang (State).
+650   0 $a Economics $x Sociological aspects $z Malaysia $z Kedah.
+
+001 4271092
+245 1 0 $a Managerial values of Penang municipal council officers $h [electronic resource] : $b a preliminary report / $c Ali Haidar, Len Pullin and Lim Hong Hai.
+650   0 $a Executives $z Malaysia $z Penang $x Attitudes.
+650   0 $a Values $z Malaysia $z Penang.
+
+001 6094732
+245 0 0 $6 880-01 $a Shen mai xin zhong de mi mi : $b Xinjiapo yu Binlangyu de gu shi / $c [bian zhe 21 shi ji chu ban she bian ji bu].
+650   0 $a Anti-imperialist movements $z Malaysia $z Pinang Island (Pinang)
+
+001 6093501
+245 1 0 $a Semenanjung Malaysia, Pulau Pinang $h [cartographic material] / $c diterbitkan oleh Pengarah Pemetaan Negara.
+650   0 $a Land use $z Malaysia $z Pinang $v Maps.
+
+001 1102243
+245 1 4 $a The blue mansion : $b the story of Mandarin splendour reborn / $c Lin Lee Loh-Lim.
+650   0 $a Historic buildings $v Malaysia $v George Town (Pinang)
+
+001 2293440
+245 1 0 $6 880-02 $a Ni feng chu zhan Danrong san / $c Zhang Ying zhu.
+650   0 $a Local elections $z Pinang.
+
+001 2423352
+245 0 0 $6 880-01 $a "Bincheng xin bao" zheng lun bian mu suo yin / $c Wang Kangding bian.
+650   0 $a Editorials $z Pinang.
+
+001 3533330
+245 0 0 $6 880-01 $a Bincheng Kejia liang bai nian : $b Binlang Yu Ke shu gong hui liu shi zhou nian ji nian wen ji / $c [lun wen bian zhu Wang Chenfa].
+650   0 $a Hakka (Chinese people) $z Penang $x History.
+
+001 3092765
+245 1 0 $6 880-02 $a Bin Cheng Huizhou hui guan 180 nian : $b kua yue san ge shi ji de tuo zhi shi shi  / $c [bian zhu Wang Chenfa].
+650   0 $a Chinese $z Malaysia $x Societies, etc.
+650   0 $a Chinese $z Pinang $v Biography.
+650   0 $a Chinese $z Pinang $x History.
+
+001 1708838
+245 1 0 $a Steel : $b from ashes rebuilt to manufacturing excellence / $c Peggy Lim.
+650   0 $a Computer industry $z Pinang.
+650   0 $a Electronic industries $z Pinang.
+
+001 3673971
+245 1 0 $a Hokkien/Baba sayings for all occasions / $c compiled & published by Raymond Kwok ; all illustrations by Calvin Kwok Kah Meng.
+650   0 $a Hokkien dialects $z Malaysia $z Pinang.
+
+001 2100476
+245 1 4 $a The Phor Tor Festival in Penang : $b deities, ghosts and Chinese ethnicity / $c by Tan Sooi Beng.
+650   0 $a Festivals $z Malaysia $z Pinang.
+
+001 530848
+245 1 0 $a Report of survey : $b Penang Island structure plan.
+650   0 $a Industries $z Malaysia $z Pinang Island (Pinang)
+
+001 3357598
+245 1 0 $a Mt Penang Parklands $h [electronic resource].
+650   0 $a Recreation $z New South Wales $z Mt. Penang.
+
+001 15846
+245 1 4 $a The economics of fishing and the developing world : $b a Malaysian case study / $c G.R. Munro and Chee Kim Loy.
+650   0 $a Fish trade $z Malaysia $z Kedah.
+650   0 $a Fish trade $z Malaysia $z Pinang.
+
+001 814866
+245 1 0 $a Gazette / $c Government of Penang.
+650   0 $a Gazettes $z Pinang.
+650   0 $a Law $z Pinang $v Periodicals.
+
+001 7380170
+245 0 0 $a George Town Penang.
+650   0 $a Roads $z Malaysia $z George Town (Pulau Pinang) $v Maps.
+
+001 389573
+245 1 0 $a Transnational capital and local conjucture : $b the semiconductor industry in Penang, Malaysia / $c Kamal Salih, Mei Ling Young and Rajah Rasiah.
+650   0 $a Semiconductor industry $z Malaysia $z Pinang.
+650   0 $a Industries $z Malaysia $z Pinang.
+
+001 6939077
+245 1 0 $6 880-02 $a Kua yu shi xue : $b jin dai Zhongguo yu Nanyang Hua ren yan jiu de xin shi ye / $c Huang Xianqiang zhu.
+650   0 $a Chinese $z Southeast Asia $x History.
+650   0 $a Prostitutes $z Malaysia $z Pinang.
+650   0 $a Chinese $z Singapore.
+650   0 $a Chinese $z Malaysia $z Pinang.
+650   7 $a Chinese. $2 fast $0 (OCoLC)fst00857169
+650   7 $a Diplomatic relations. $2 fast $0 (OCoLC)fst01907412
+650   7 $a International relations. $2 fast $0 (OCoLC)fst00977053
+650   7 $a Prostitutes. $2 fast $0 (OCoLC)fst01079535
+
+001 6450718
+245 0 0 $a Biographical dictionary of mercantile personalities of Penang / $c Loh Wei Leng, Badriyah Haji Salleh, Mahani Musa, Wong Yee Tuan and Marcus Langdon, editors.
+650   0 $a Merchants $z Malaysia $z Pinang Island (Pinang) $v Biography $v Dictionaries.
+
+001 266840
+245 1 4 $a The British settlement of Penang / $c James Low ; with an introduction by James Jackson.
+650   0 $a Agriculture $z Malaysia $z Pinang.
+
+001 6259328
+245 0 0 $a Penang Free School and the Old Frees Assoication, Kuala Lumpur & Selangor: early history and reminisces
+650   0 $a Schools $z Malaysia $z Pinang.
+
+001 15462
+245 1 0 $a Pollution : $b Kuala Juru's battle for survival.
+650   0 $a Fisheries $x Economic aspects $z Malaysia $z Kampong Kuala Juru (Pinang)
+650   0 $a Fishes $x Effect of water pollution on.
+650   0 $a Water $x Pollution $z Malaysia $z Kampong Kuala Juru (Pinang)
+
+001 1943278
+245 1 0 $a Annual report / $c Festival Development Corporation.
+650   0 $a Recreation $x Planning $z New South Wales $z Mt. Penang $v Periodicals.
+
+001 1726732
+245 1 0 $a Modern dreams : $b an inquiry into power, cultural production, and the cityscape in contemporary urban Penang, Malaysia / $c Beng-Lan Goh.
+650   0 $a Urban renewal $z Pinang $z George Town.
+650   0 $a Portuguese $z Pinang $z George Town.
+650   0 $a Political culture $z Pinang $z George Town.
+650   0 $a Power (Social sciences) $z Pinang $z George Town.
+650   0 $a Eurasians $z Pinang $z George Town.
+650   0 $a City planning $z Pinang $z George Town.
+
+001 1530291
+245 1 0 $6 880-02 $a Binlang yu Fujian gong zhong ji jia zhong bei ming ji / $c Zhang Shaokuan.
+650   0 $a Inscriptions, Chinese $z Pinang.
+650   0 $a Chinese $z Pinang $x History.
+
+001 1793138
+245 1 0 $a Some social and economic aspects of the introduction of new varieties of paddy in Malaysia : $b a village case study / $c U.N. Bhati.
+650   0 $a Rice $x Economic aspects $z Malaysia $z Permatang Bogak (Pinang)
+650   0 $a Agriculture $x Economic aspects $z Malaysia $z Permatang Bogak (Pinang)
+650   0 $a Agricultural innovations $z Malaysia $z Permatang Bogak (Pinang)
+650   0 $a Rice $z Malaysia $z Permatang Bogak (Pinang) $x Varieties.
+
+001 4497930
+245 1 0 $a Car, castello & quill : $b experiencing a biography / $c Winston Lim.
+650   0 $a Authors, English $y 20th century $v Biography.
+650   0 $a British $z Malaysia $z Pinang $v Biography.
+
+001 7463452
+245 1 0 $a Penang Hill : $b a journey through time / $c Mike Gibby.
+650   0 $a Pinang Island (Pulau Pinang, Malaysia) $x History.
+650   0 $a Pinang Island (Pulau Pinang, Malaysia) $x Social life and customs.
+
+001 4400757
+245 1 4 $a The gift of rain / $c Tan Twan Eng.
+650   0 $a Racially mixed people $z Malaysia $z Pinang $v Fiction.
+
+001 1965563
+245 1 0 $a Urban development in Southeast Asia : $b regional cities and local government / $c by Jurgen Ruland.
+650   0 $a Urbanization $z Southeast Asia $x Cross-cultural studies.
+650   0 $a Urbanization $z Thailand $z Chiang Mai $x Cross-cultural studies.
+650   0 $a Urbanization $z Philippines $z Iloilo $x Cross-cultural studies.
+650   0 $a Urbanization $z Malaysia $z Pinang $x Cross-cultural studies.
+650   0 $a Municipal government $z Thailand $z Chiang Mai $x Cross-cultural studies.
+650   0 $a Municipal government $z Philippines $z Iloilo $x Cross-cultural studies.
+650   0 $a Municipal government $z Malaysia $z Pinang $x Cross-cultural studies.
+
+001 819759
+245 1 0 $a Gazette. $p Legislative supplement / $c Government of Penang.
+650   0 $a Delegated legislation $z Pinang $v Periodicals.
+650   0 $a Law $z Pinang $v Periodicals.
+
+001 4927879
+245 1 0 $6 880-02 $a Nan ming cuo tan : $b Binglang yu Hua ren shi sui bi xin ji = South Seas miscellany : historical vignettes from Pulau Pinang and Nusantara / $c [zuo zhe Zhang Shaokuan].
+650   0 $a Chinese $z Malaysia $z Pinang $x History.
+
+001 134428
+245 1 0 $a Boria : $b a form of Malay theatre / $c Rahmah Bujang.
+650   0 $a Theater $z Malaysia $z Pulau Pinang.
+650   0 $a Theater.
+650   0 $a Performing arts $z Malaysia.
+
+001 822441
+245 1 0 $a Gazette. $p Bills supplement.
+650   0 $a Bills, Legislative $z Pinang $v Periodicals.
+650   0 $a Law $z Pinang $v Periodicals.
+
+001 3359788
+245 1 0 $6 880-02 $a Yi min yu fo jiao : $b Ying zhi min shi dai de Bincheng fo jiao / $c Chen Qiuping zhuan.
+650   0 $a Buddhism $z Pinang $x History.
+
+001 2330705
+245 1 0 $a Government gazette / $c Federation of Malaya, Government of the Settlement of Penang.
+650   0 $a Gazettes $z Pinang.
+650   0 $a Law $z Pinang $v Periodicals.
+
+001 798493
+245 1 0 $a Water fall, Penang $h [picture] / $c [Augustus Earle].
+650   0 $a Waterfalls $z Pinang.
+
+001 2337439
+245 1 0 $a Warta kerajaan = $b Government of Penang gazette / $c Negeri Pulau Pinang.
+650   0 $a Gazettes $z Pinang.
+650   0 $a Law $z Pinang $v Periodicals.
+
+001 3787612
+245 1 4 $a The sustainable Penang initiative : $b creating state-society partnerships for sustainable development / $c by Khoo Salma Nasution.
+650   0 $a Sustainable development $z Malaysia $z Penang.
+650   0 $a Urban renewal $z Malaysia $z Penang.
+650   0 $a Public-private sector cooperation $z Malaysia $z Penang.
+
+001 2634689
+245 1 0 $a Pengurusan kompleks kediaman tinggi : $b gambaran dan realiti / $c Tiun Ling Ta.
+650   0 $a Apartment houses $z Malaysia $z Pinang Island (Pinang) $v Maps.
+650   0 $a Dwellings $z Malaysia $z Pinang Island (Pinang)
+
+001 4470213
+245 1 0 $a Penang Harbour, Malacca Strait $h [cartographic material] : $b from Admiralty surveys to 1930 / $c Hydrographic Office.
+650   0 $a Nautical charts $z Malaysia $z Penang Harbour.
+
+001 3258364
+245 0 4 $a The Star $h [microform].
+650   0 $a English newspapers $z Pinang.
+650   0 $a Malaysian newspapers $z Pinang.
+
+001 3888998
+245 1 0 $a More than merchants : $b a history of the German-speaking community in Penang, 1800s-1940s / $c Khoo Salma Nasution.
+650   0 $a Germans $z Malaysia $z Pinang $x History.
+
+001 3670576
+245 1 0 $a Wawasan 2020 & masyarakat madani : $b Ke arah alaf baru wanita di Pulau Pinang / $c Omar Yusoff.
+650   0 $a Women $z Malaysia $z Pinang.
+650   0 $a Social change $z Malaysia $z Pinang.
+
+001 6453343
+245 1 0 $a Jah-hět / $c Roland Werner.
+650   0 $a Wood-carving, Jah Hut $z Malaysia $z Pahang.
+650   0 $a Art and mythology $z Malaysia $z Penang.
+650   0 $a Jah Hut (Malaysian people) $x Social life and customs.
+650   0 $a Jah Hut (Malaysian people) $x Medicine.
+650   0 $a Jah Hut (Malaysian people) $x Rites and ceremonies.
+
+001 7283640
+245 1 0 $a Sejarah bergambar Seberang Perai = $b Province Wellesley : a pictorial history / $c Khoo Salma Nasution ; Malay translation: Abdur-Razzaq Lubis ; research assistant: Quah Jit Ming.
+650   0 $a Malays (Asian people) $z Malaysia $z Pulau Pinang (State) $x History.
+650   0 $a Villages $z Malaysia $z Pulau Pinang (State) $x History.
+
+001 6451379
+245 1 0 $6 880-02 $a Da lu hou de chao mou nan zai : $b A Gui yi hui yi lu / $c Chen Yanni zhu.
+650   0 $a Chinese $z Malaysia $z Pinang $x History.
+650   0 $a Chinese $z Foreign countries $v Biography.
+
+001 2365777
+245 1 2 $a A dissertation on the soil & agriculture of the British settlement of Penang, or Prince of Wales Island in the straits of Malacca, including Province Wellesley on the Malayan Peninsula $h [microform] : $b with brief references to the settlements of Singapore & Malacca, and accompanied by incidental observations on various subjects of local interest in these straits / $c by James Low.
+650   0 $a Agriculture $z Pinang Island (Pinang)
+
+001 1297687
+245 1 0 $a Violence against women : $b domestic violence in Penang / $c Rohana Ariffin & Rachel Samuel.
+650   0 $a Wife abuse $z Malaysia $z Pinang.
+650   0 $a Family violence $z Malaysia $z Pinang.
+
+001 2304874
+245 1 0 $a Analisis politik Pulau Pinang : $b milik siapa pula? / $c Ann Wan Seng, Ibnu Hasyim.
+650   0 $a Malays (Asian people) $z Malaysia $z Pinang $x Political activity.
+650   0 $a Chinese $z Malaysia $z Pinang $x Political activity.
+
+001 1072559
+245 1 0 $a Regional industrialization : $b a case study of the semi-conductor industry in Penang State, Malaysia / $c by Kamal Salih, Mei-Ling Young, T.G. McGee.
+650   0 $a Semiconductor industry $z Malaysia $z Pinang.
+
+001 3416786
+245 0 0 $a Report of the Acting Auditor-General on the accounts of the State of Penang.
+650   0 $a Finance, Public $z Malaysia $z Pinang $x Accounting $x Periodicals.
+
+001 7087613
+245 1 0 $a Penang Chinese commerce in the 19th century : $b the rise and fall of the big five / $c Wong Yee Tuan.
+650   0 $a Family-owned business enterprises $z Malaysia $z Pulau Pinang (State)
+650   0 $a Business networks $z Malaysia $z Pulau Pinang (State)
+650   0 $a Family-owned business enterprises $z Malaysia $z Pulau Pinang (State) $x History.
+650   0 $a Business networks $z Malaysia $z Pulau Pinang (State) $x History.
+
+001 142132
+245 1 4 $a The settlement of Penang land utilization map.
+650   0 $a Land use, Rural $z Pulau Pinang (Malaysia : State) $v Maps.
+
+001 6859107
+245 1 0 $a Land use report of Penang/Province Wellesley / $c Siew Kam Yew.
+650   0 $a Land use $z Malaysia $z Pulau Pinang (State)
+
+001 7507105
+245 1 0 $6 880-02 $a 19 shi ji Bincheng Hua shang wu da xing de jue qi yu mo luo / $c [Ma] Huang Yuduan zhu ; [Ma] Chen Yaozong yi.
+650   0 $a Chinese $x Commerce $z Malaysia $z Pinang Island (Pulau Pinang)
+650   0 $a Hokkien (Chinese people) $x Commerce $z Malaysia $z Pinang Island (Pulau Pinang)
+650   0 $a Family-owned business enterprises $z Malaysia $z Pinang Island (Pulau Pinang)
+650   0 $a Corporations, Chinese $z Malaysia $z Pinang Island (Pulau Pinang)
+650   0 $a Business networks $z Malaysia $z Pinang Island (Pulau Pinang)
+650   0 $a Business enterprises $z Malaysia $z Pinang Island (Pulau Pinang)
+
+001 3637752
+245 0 0 $a Community directory : $b Penang Heritage Trust : Persatuan Warisan Pulau Pinang.
+650   0 $a Municipal services $z Pinang $v Directories.
+650   0 $a Human services $z Pinang $v Directories.
+650   0 $a Community organization $z Pinang $v Directories.
+
+001 7765613
+245 0 0 $a Penang Thaipusam a journey of faith : $b a pioneering effort of the Penang Nattukottai Chettiars since 1857.
+650   0 $a Thaipusam $z Malaysia $z Pulau Pinang (State) $v Pictorial works.
+650   0 $a Thaipusam $z Malaysia $z Pulau Pinang (State) $x History.
+650   0 $a Nattukottai Chettiars.
+650   0 $a Tamil (Indic people) $z Malaysia $z Pulau Pinang (State) $x Religion.
+650   7 $a Thaipusam. $2 fast $0 (OCoLC)fst01149095
+
+001 7792020
+245 1 0 $6 880-01 $a Bincheng Fujian gong si / $c zuo zhe: Chen Jianhong, Huang Mujin = The story of Hokkien Kongsi, Penang / authors, Tan Kim Hong, Ooi Bok Kim.
+650   0 $a Chinese $z Malaysia $z Pulau Pinang (State)
+
+001 2913240
+245 1 0 $a Penang Botanic Gardens / $c by Chris K.H. Teo.
+650   0 $a Botanical gardens $z Malaysia $z Pinang $z George Town.
+
+001 6101391
+245 1 0 $6 880-02 $a Zao yu bang qun : $b Bincheng Hua ren she hui de kua bang zu zhi yan jiu / $c Wu Yunlong zhu.
+650   0 $a Chinese $z Malaysia $z Pinang.
+
+001 4937131
+245 1 0 $6 880-02 $a Binlangyu cong tan / $c Zhang Shaokuan zhu = Penang Chinese collected essays / by  Teoh Shiaw Kuan.
+650   0 $a Chinese $z Malaysia $z Pinang Island (Pinang)
+
+001 7284035
+245 1 0 $6 880-02 $a Zhongshan xian sheng yu Binglang Yu / $c Su Qinghua zhu.
+650   0 $a Revolutionaries $z China $v Biography.
+650   0 $a Chinese $z Malaysia $z Pulau Pinang (State) $x History.
+650   0 $a Chinese $z Southeast Asia $x History.
+650   7 $a Chinese. $2 fast
+650   7 $a Revolutionaries. $2 fast
+
+001 2342426
+245 1 0 $a Warta Kerajaan. $p Tambahan perundangan / $c Negeri Pulau Pinang.
+650   0 $a Delegated legislation $z Pinang $v Periodicals.
+650   0 $a Law $z Pinang $v Periodicals.
+
+001 6216393
+245 1 0 $a Melayu-Muslim dalam sejarah George Town / $c penulis: Prof. Madya Dr. Mahani Musa ; penyunting: Nor Zahriah Md. Razally ; penyelidik: Nurul Azizi Shafie, Shahida Mohamad Salleh, Siti Kamaliah Madil.
+650   0 $a Malays (Asian people) $z Malaysia $z George Town (Pinang) $x History.
+650   0 $a Malays (Asian people) $z Malaysia $z George Town (Pinang) $x Social life and customs.
+
+001 2064935
+245 1 4 $a The great tree, Penang $h [picture] / $c W. Purser lithog. from a sketch by Capt. T. Prinsep.
+650   0 $a Trees $z Malaysia $z Pinang.
+
+001 1927645
+245 0 0 $a Investment guide to Penang.
+650   0 $a Investments, Foreign $z Malaysia $z Pulau Pinang.
+
+001 6032263
+245 1 2 $a A dissertation on the soil & agriculture of the British settlement of Penang, or Prince of Wales Island in the straits of Malacca, including Province Wellesley on the Malayan Peninsula $h [electronic resource] : $b with brief references to the settlements of Singapore & Malacca, and accompanied by incidental observations on various subjects of local interest in these straits / $c by James Low.
+650   0 $a Agriculture $z Malaysia $z Pinang Island (Pinang)
+
+001 822854
+245 1 0 $a Gazette. $p Bills supplement.
+650   0 $a Bills, Legislative $z Pinang $v Periodicals.
+650   0 $a Law $z Pinang $v Periodicals.
+
+001 3701368
+245 1 4 $a The way that lives in the heart : $b Chinese popular religion and spirit mediums in Penang, Malaysia / $c Jean DeBernardi.
+650   0 $a Chinese $z Malaysia $z Pinang $x Rites and ceremonies.
+650   0 $a Chinese $z Malaysia $x Rites and ceremonies.
+
+001 348263
+245 1 0 $a Laporan tahunan / $c Departemen Perhubungan, Direktorat Jenderal Perhubungan Laut, Kantor Wilayah II, Badan Pengusahaan Pelabuhan Tanjung Pinang.
+650   0 $a Harbors $z Indonesia $z Tanjung Pinang $v Periodicals
+
+001 2871923
+245 1 0 $a Torrent a Pulo-Penang $h [picture] / $c dessine par Lauvergne; lith. par Joly; fig. par Bayot.
+650   0 $a Waterfalls $z Pinang.
+
+001 978956
+245 0 0 $a Penang into the 21st century / $c contributors, Koh Tsu Koon ... [et al.].
+650   0 $a Industries $z Malaysia $z Pinang $x Congresses.
+650   0 $a Economic forecasting $z Malaysia $z Pinang $x Congresses.
+650   0 $a Education $z Malaysia $z Pinang $x Congresses.
+
+001 2340440
+245 1 0 $a Gazette. $p Enactment supplement.
+650   0 $a Law $z Pinang $v Periodicals.
+
+001 1074094
+245 1 0 $a Blood on the golden sands : $b the memoirs of a Penang family / $c Lim Kean Siew.
+650   0 $a World War, 1939-1945 $x Social aspects $z Pulau Pinang.
+650   0 $a World War, 1939-1945 $z Malaysia $x Personal narratives.
+650   0 $a World War, 1939-1945 $z Pulau Pinang.
+
+001 1825085
+245 1 0 $a Kampung diary / $c [Budi Rusindah].
+650   0 $a Pinang $x Rural conditions.
+
+001 567783
+245 0 0 $a Municipal Council of Penang Island structure plan 1987.
+650   0 $a City planning $z Malaysia $z Pinang Island (Pinang)
+
+001 2181115
+245 1 0 $a Phraya Ratchakapitan (Fransit Lai) : $b phusamret ratchakan Ko Phrin `Op Wen / $c Nantha Woranetiwong riapriang.
+650   0 $a Regents $z Pinang $x Biography.
+650   0 $a Adventure and adventurers $z Great Britain $x Biography.
+
+001 302967
+245 1 0 $a Isu pembangunan tanah wakaf / $c Kamarudin Ngah.
+650   0 $a Land tenure $z Malaysia $z Pinang.
+650   0 $a Land tenure $z Malaysia.
+650   0 $a Land tenure (Islamic law) $z Malaysia.
+
+001 1349492
+245 1 0 $a Cascade a Pulo Penang $h [picture] / $c dessine par Fisquet; lith. par Bichebois.
+650   0 $a Waterfalls $z Pinang.

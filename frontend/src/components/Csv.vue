@@ -25,7 +25,7 @@
                     <div class="hello">
                         <h1>{{ msg }}</h1>
                         <!--<p><a href="/viewCSV">Download CSV</a></p>-->
-                        <upload-btn :fileChangedCallback="fileChanged" ripple="true" title="Convert File to CSV">
+                        <upload-btn :fileChangedCallback="fileChanged" ripple=true title="Convert File to CSV">
                             <template slot="icon-left">
                                 <v-icon left>mdi-file-import</v-icon>
                             </template>
@@ -40,7 +40,7 @@
 
 <script>
     import UploadButton from 'vuetify-upload-button';
-
+    import axios from 'axios'
 
     export default {
         name: 'Csv',
@@ -49,8 +49,19 @@
         },
         methods: {
             fileChanged(file) {
-                // handle file here. File will be an object.
-                // If multiple prop is true, it will return an object array of files.
+                let formData = new FormData();
+                formData.append('file', this.file);
+
+                axios.post('/download/csv', formData,
+                    {
+                        headers: {
+                            'Content-Type': 'multipart/form-data'
+                        }
+                    }).then(function () {
+                    console.log('SUCCESS');
+                }).catch(function () {
+                    console.log('FAILURE');
+                })
             }
         },
         components: {
