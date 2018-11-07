@@ -38,16 +38,21 @@ public class ExportController {
 
         ArrayList<TabbedResultRow> resultRows = outputData.getResultRows();
 
-        ICsvListWriter csvListWriter = new CsvListWriter(response.getWriter(), CsvPreference.STANDARD_PREFERENCE);
+        ICsvListWriter csvListWriter = null;
+        try {
+            csvListWriter = new CsvListWriter(response.getWriter(), CsvPreference.STANDARD_PREFERENCE);
 
-        csvListWriter.write(outputData.getHeaderRow().getColumnHeadings());
-        for (TabbedResultRow row : resultRows) {
-            csvListWriter.write(row.getPrintRow());
+            csvListWriter.write(outputData.getHeaderRow().getColumnHeadings());
+            for (TabbedResultRow row : resultRows) {
+                csvListWriter.write(row.getPrintRow());
+            }
+        } finally {
+            if (csvListWriter != null) {
+                csvListWriter.close();
+            }
         }
 
-        csvListWriter.close();
     }
-
 
 
 }
