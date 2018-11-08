@@ -12,5 +12,5 @@ public class InputRecords {
 
     HashMap <String, Integer> countOfTags = new HashMap<>();
 
-    ArrayList<String> tagHeadings = new ArrayList<>();
+    ArrayList<Tag> tagHeadings = new ArrayList<>();
 }

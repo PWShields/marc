@@ -40,11 +40,13 @@ public class ExportController {
 
         ArrayList<TabbedResultRow> resultRows = outputData.getResultRows();
 
+        ArrayList<String> headerRow = outputData.getHeaderRow().getColumnHeadings();
+
         ICsvListWriter csvListWriter = null;
         try {
             csvListWriter = new CsvListWriter(response.getWriter(), CsvPreference.TAB_PREFERENCE);
 
-            csvListWriter.write(outputData.getHeaderRow().getColumnHeadings());
+            csvListWriter.write(headerRow);
             for (TabbedResultRow row : resultRows) {
                 csvListWriter.write(row.getPrintRow());
             }

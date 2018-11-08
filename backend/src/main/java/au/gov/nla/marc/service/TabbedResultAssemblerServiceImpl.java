@@ -2,6 +2,7 @@ package au.gov.nla.marc.service;
 
 import au.gov.nla.marc.domain.input.InputRecord;
 import au.gov.nla.marc.domain.input.InputRecords;
+import au.gov.nla.marc.domain.input.Tag;
 import au.gov.nla.marc.domain.output.HeaderRow;
 import au.gov.nla.marc.domain.output.TabbedResultRow;
 import au.gov.nla.marc.domain.output.TabbedResultTable;
@@ -43,7 +44,10 @@ public class TabbedResultAssemblerServiceImpl implements TabbedResultAssemblerSe
         HeaderRow headerRow = new HeaderRow();
         String type = inputRecords.getRecords().get(0).getType();
         headerRow.setType(type);
-        ArrayList<String> headings = inputRecords.getTagHeadings();
+        ArrayList<String> headings = new ArrayList<String>();
+        for (Tag tag : inputRecords.getTagHeadings()) {
+            headings.add(tag.getPrintableName());
+        }
         headerRow.setColumnHeadings(headings);
         return headerRow;
     }
