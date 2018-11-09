@@ -3,9 +3,11 @@ package au.gov.nla.marc.controller;
 import au.gov.nla.marc.domain.output.TabbedResultRow;
 import au.gov.nla.marc.domain.output.TabbedResultTable;
 import au.gov.nla.marc.service.MarcTextServiceImpl;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.supercsv.io.CsvListWriter;
 import org.supercsv.io.ICsvListWriter;
 import org.supercsv.prefs.CsvPreference;
@@ -14,9 +16,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 
-@Controller
+@RestController
+@CrossOrigin
 @RequestMapping(value = "/")
 public class ExportController {
+
+    private static final Logger logger = LoggerFactory.getLogger(ExportController.class);
 
     MarcTextServiceImpl marcTextService;
 
@@ -24,9 +29,14 @@ public class ExportController {
         this.marcTextService = marcTextService;
     }
 
-    @PostMapping(value = "download/csv", produces = "text/csv")
-    public void downLoadCSV(HttpServletResponse response) throws IOException {
+    @PostMapping(value = "upload", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public void fileUpload(@RequestParam("formData") MultipartFile file) {
+        logger.info("File received");
+    }
 
+    @PostMapping(value = "download/csv", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public void downLoadCSV(HttpServletResponse response, @RequestParam("formData") MultipartFile file) throws IOException {
+        logger.info("File received");
         TabbedResultTable outputData = marcTextService.transFormToTabbedOutPut("/Users/pshields/Documents/IntellijProjects/marc/backend/src/test/resources/data/manyRecordInput.txt");
 
 // TabbedResultTable outputData = marcTextService.transFormToTabbedOutPut("/Users/pshields/Documents/IntellijProjects/marc/backend/src/test/resources/data/multipleRecordInput.txt");
