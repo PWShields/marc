@@ -6,6 +6,8 @@ import au.gov.nla.marc.domain.input.InputRecords;
 import au.gov.nla.marc.domain.input.Tag;
 import au.gov.nla.marc.domain.output.TabbedResultTable;
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -16,10 +18,12 @@ import java.util.List;
 @Service
 public class MarcTextServiceImpl implements MarcTextService {
 
+    private static final Logger logger = LoggerFactory.getLogger(MarcTextServiceImpl.class);
 
     FileReaderService fileReaderService;
     TabbedResultAssemblerService tabbedResultAssemblerService;
 
+//    @Todo: add all possible values here
     String recordIdField = "001";
 
 
@@ -67,7 +71,7 @@ public class MarcTextServiceImpl implements MarcTextService {
         for (String tag : countOfTags.keySet()) {
             Integer count = (Integer) countOfTags.get(tag);
             for (int i = 0; i < count; i++) {
-                Tag newTag = new Tag(tag + "." + (i + 1), tag, (i + 1));
+                Tag newTag = new Tag(tag + "." + String.valueOf(i + 1), tag, (i + 1));
                 tagHeadings.add(newTag);
             }
         }
