@@ -38,7 +38,6 @@ public class ExportController {
     public void downLoadCSV(HttpServletResponse response,  @RequestParam MultipartFile file) throws IOException {
         logger.info("File received");
         TabbedResultTable outputData = marcTextService.transFormToTabbedOutPut(file);
-        logger.info(response.getHeaderNames().toString());
 
         String csvFileName = "marcTabbed.txt";
         response.setContentType("text/csv");
