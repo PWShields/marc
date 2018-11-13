@@ -1,53 +1,53 @@
 <template>
 
-        <div class="container">
-            <v-flex xs12>
+    <div class="container">
+        <v-flex xs12>
             <v-img
                     :src="require('../assets/marclogo.png')"
                     class="my-3"
                     contain
                     height="100"
             ></v-img>
-            </v-flex>
-            <v-layout justify-center>
+        </v-flex>
+        <v-layout justify-center>
 
-                <div class="hello">
-                    <h1>{{ msg }}</h1>
-
-                </div>
-            </v-layout>
-            <!--UPLOAD-->
-            <form enctype="multipart/form-data" novalidate v-if="isInitial || isSaving">
-                <h4>Load file to convert to Excel tab delimited format</h4>
-                <div class="dropbox">
-                    <input type="file"  :name="uploadFieldName" :disabled="isSaving"
-                           @change="filesChange($event.target.name, $event.target.files); "
-                           accept="text/enriched/*" class="input-file">
-                    <p v-if="isInitial">
-                        Drag your file(s) here to begin<br> or click to browse
-                    </p>
-                    <p v-if="isSaving">
-                        Uploading file...
-                    </p>
-                    <p v-if="isSuccess">
-                        File converted
-                    </p>
-                    <p v-if="isFailed">
-                        There was a problem converting the file.
-                    </p>
-
-                </div>
-
-            </form>
-            <a ref="downloadlink" download="true"  v-if="contenturl" :href="contenturl">Download file </a>
+            <div class="hello">
+                <h1>{{ msg }}</h1>
 
             </div>
+        </v-layout>
+        <!--UPLOAD-->
+        <form enctype="multipart/form-data" novalidate v-if="isInitial || isSaving">
+            <h4>Load file to convert to Excel tab delimited format</h4>
+            <div class="dropbox">
+                <input type="file" :name="uploadFieldName" :disabled="isSaving"
+                       @change="filesChange($event.target.name, $event.target.files); "
+                       accept="text/enriched/*" class="input-file">
+                <p v-if="isInitial">
+                    Drag your file(s) here to begin<br> or click to browse
+                </p>
+                <p v-if="isSaving">
+                    Uploading file...
+                </p>
+                <p v-if="isSuccess">
+                    File converted
+                </p>
+                <p v-if="isFailed">
+                    There was a problem converting the file.
+                </p>
+
+            </div>
+
+        </form>
+        <a ref="downloadlink" download="true" v-if="contenturl" :href="contenturl">Download file </a>
+
+    </div>
 </template>
 
 
 <script>
-    import {upload} from '../js/file-upload.service';
 
+    import * as axios from 'axios';
 
     const STATUS_INITIAL = 0, STATUS_SAVING = 1, STATUS_SUCCESS = 2, STATUS_FAILED = 3;
 
@@ -87,21 +87,30 @@
                 this.uploadedFiles = [];
                 this.uploadError = null;
             },
-            save(formData) {
-                // upload data to the server
-                this.currentStatus = STATUS_SAVING;
+            upload(formData) {
+                this.currentStatus =  STATUS_SAVING;
+                axios.post('/download/csv', formData,
+                    {
+                        headers: {
+                            'Content-Type': 'multipart/form-data'
+                        }
+                    }).then(function (response) {
+                    console.log('SUCCESS');
+                    this.currentStatus = STATUS_SAVING;
 
-                upload(formData, this)
-                    .then(x => {
-                        this.uploadedFiles = [].concat(x);
-                        this.currentStatus = STATUS_SUCCESS;
-                        // alert("returned from upload")
-                    })
-                    .catch(err => {
-                        this.uploadError = err.response;
-                        this.currentStatus = STATUS_FAILED;
-                    });
+                    const url = window.URL.createObjectURL(new Blob([response.data]));
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.setAttribute('download', 'marc.txt'); //or any other extension
+                    document.body.appendChild(link);
+
+                    this.currentStatus = STATUS_SAVING;
+                }).catch(function () {
+                    console.log('FAILURE');
+                })
             },
+
+
             filesChange(fieldName, fileList) {
                 // handle file changes
                 const formData = new FormData();
@@ -116,15 +125,32 @@
                     });
 
                 // save it
-                this.save(formData);
+                axios.post('/download/csv', formData,
+                    {
+                        headers: {
+                            'Content-Type': 'multipart/form-data'
+                        }
+                    }).then(function (response) {
+                    console.log('SUCCESS');
+
+                    const url = window.URL.createObjectURL(new Blob([response.data]));
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.setAttribute('download', 'marc.txt'); //or any other extension
+                    document.body.appendChild(link);
+                    link.click();
+
+                }).catch(function () {
+                    console.log('FAILURE');
+                })
             }
-        },
+        }
+        ,
         mounted() {
             this.reset();
-        },
-        components: {
-
         }
+        ,
+        components: {}
     }
 </script>
 
