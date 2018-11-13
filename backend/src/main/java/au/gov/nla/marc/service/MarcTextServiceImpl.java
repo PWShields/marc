@@ -64,23 +64,26 @@ public class MarcTextServiceImpl implements MarcTextService {
         InputRecord inputRecord = new InputRecord();
         int lineNumber = 1;
         for (String row : fileRows) {
-            String tag = StringUtils.substringBefore(row, " ");
-            if (tag.equals(recordIdField)) {
-                if (lineNumber != 1) {
-                    inputRecords.getRecords().add(inputRecord);
+            if (!row.isEmpty()) {
+                String tag = StringUtils.substringBefore(row, " ");
+                if (tag.equals(recordIdField)) {
+                    if (lineNumber != 1) {
+                        inputRecords.getRecords().add(inputRecord);
+                        updateTagCount(inputRecords, inputRecord);
+                    }
+                    inputRecord = new InputRecord();
+                    inputRecord.setType(tag);
+                    inputRecord.setRecordId(StringUtils.substringAfter(row, " "));
+                } else {
+                    inputRecord.getTags().put((tag), "$" + StringUtils.substringAfter(row, "$"));
                     updateTagCount(inputRecords, inputRecord);
                 }
-                inputRecord = new InputRecord();
-                inputRecord.setType(tag);
-                inputRecord.setRecordId(StringUtils.substringAfter(row, " "));
-            } else {
-                inputRecord.getTags().put((tag), "$" + StringUtils.substringAfter(row, "$"));
-                updateTagCount(inputRecords, inputRecord);
+                lineNumber++;
             }
-            lineNumber++;
         }
         inputRecords.getRecords().add(inputRecord);//add the last record
         updateTagCount(inputRecords, inputRecord);
+
         return inputRecords;
     }
 

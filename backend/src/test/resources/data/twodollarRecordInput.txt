@@ -1,0 +1,9 @@
+001 7461413
+245 1 0 $a Epitaph : $b the Northam Road Protestant Cemetery : George Town, Penang / $c Marcus Langdon.
+650   0 $a Epitaphs $z Malaysia $z Pulau Pinang (State)
+650   0 $a Inscriptions $z Malaysia $z Pulau Pinang (State)
+650   0 $a Christian cemeteries $z Malaysia $z Pulau Pinang (State)
+
+001 4312504
+245 1 4 $a The Chinese in Penang : $b a pictorial history / $c [Tan Kim Hong ; photography: Ang Sin Hup and Lim Gaik Siang]
+650   0 $a Chinese $z Pinang $x History $v Pictorial works.
