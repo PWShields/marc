@@ -50,7 +50,7 @@
         methods: {
             fileChanged(file) {
                 let formData = new FormData();
-                formData.append('file', this.file);
+                formData.append('data', this.file);
 
                 axios.post('/download/csv', formData,
                     {

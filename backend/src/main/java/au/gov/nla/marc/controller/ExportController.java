@@ -34,15 +34,15 @@ public class ExportController {
         logger.info("File received");
     }
 
-    @PostMapping(value = "download/csv", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    public void downLoadCSV(HttpServletResponse response, @RequestParam("formData") MultipartFile file) throws IOException {
+    @PostMapping(value = "download/csv", consumes = MediaType.MULTIPART_FORM_DATA_VALUE, produces = MediaType.ALL_VALUE)
+    public void downLoadCSV(HttpServletResponse response,  @RequestParam MultipartFile file) throws IOException {
         logger.info("File received");
-        TabbedResultTable outputData = marcTextService.transFormToTabbedOutPut("/Users/pshields/Documents/IntellijProjects/marc/backend/src/test/resources/data/manyRecordInput.txt");
+        TabbedResultTable outputData = marcTextService.transFormToTabbedOutPut(file);
+        logger.info(response.getHeaderNames().toString());
 
-// TabbedResultTable outputData = marcTextService.transFormToTabbedOutPut("/Users/pshields/Documents/IntellijProjects/marc/backend/src/test/resources/data/multipleRecordInput.txt");
-
-        String csvFileName = "marcTabbed.csv";
+        String csvFileName = "marcTabbed.txt";
         response.setContentType("text/csv");
+
         String headerKey = "Content-Disposition";
         String headerValue = String.format("attachment; filename=\"%s\"",
                 csvFileName);

@@ -1,15 +1,17 @@
 <template>
   <div class="home">
-       <Csv msg="Marc Converter"/>
+       <FileUpload msg="Marc Converter" />
   </div>
 </template>
 
 <script>
-  import Csv from '../components/Csv'
+
+  import FileUpload from "../components/FileUpload";
 
   export default {
     components: {
-      Csv
+        FileUpload,
+
     }
   }
 </script>

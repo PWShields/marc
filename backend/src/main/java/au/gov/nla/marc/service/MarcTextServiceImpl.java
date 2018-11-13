@@ -9,6 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -23,13 +24,26 @@ public class MarcTextServiceImpl implements MarcTextService {
     FileReaderService fileReaderService;
     TabbedResultAssemblerService tabbedResultAssemblerService;
 
-//    @Todo: add all possible values here
+    //    @Todo: add all possible values here
     String recordIdField = "001";
 
 
     public MarcTextServiceImpl(FileReaderService fileReaderService, TabbedResultAssemblerService tabbedResultAssemblerService) {
         this.fileReaderService = fileReaderService;
         this.tabbedResultAssemblerService = tabbedResultAssemblerService;
+    }
+
+    @Override
+    public TabbedResultTable transFormToTabbedOutPut(MultipartFile file) {
+        InputRecords inputRecords = buildInputRecords(file);
+        addColumnHeadingsToInputRecords(inputRecords);
+        TabbedResultTable tabbedResultTable = tabbedResultAssemblerService.mapToTabbedResult(inputRecords);
+        return tabbedResultTable;
+    }
+
+    private InputRecords buildInputRecords(MultipartFile file) {
+        List<String> fileRows = fileReaderService.readFile(file);
+        return buildInputRecords(fileRows);
     }
 
     @Override
@@ -40,9 +54,12 @@ public class MarcTextServiceImpl implements MarcTextService {
         return tabbedResultTable;
     }
 
-
     private InputRecords buildInputRecords(String fileName) {
         List<String> fileRows = fileReaderService.readFile(fileName);
+        return buildInputRecords(fileRows);
+    }
+
+    private InputRecords buildInputRecords(List<String> fileRows) {
         InputRecords inputRecords = new InputRecords();
         InputRecord inputRecord = new InputRecord();
         int lineNumber = 1;
@@ -58,12 +75,15 @@ public class MarcTextServiceImpl implements MarcTextService {
                 inputRecord.setRecordId(StringUtils.substringAfter(row, " "));
             } else {
                 inputRecord.getTags().put((tag), "$" + StringUtils.substringAfter(row, "$"));
+                updateTagCount(inputRecords, inputRecord);
             }
             lineNumber++;
         }
         inputRecords.getRecords().add(inputRecord);//add the last record
+        updateTagCount(inputRecords, inputRecord);
         return inputRecords;
     }
+
 
     private void addColumnHeadingsToInputRecords(InputRecords inputRecords) {
         ArrayList<Tag> tagHeadings = inputRecords.getTagHeadings();

@@ -3,8 +3,8 @@ module.exports = {
     assetsDir: 'static',
     devServer: {
         proxy: {
-            '/api': {
-                target: 'http://localhost:8088',
+            '/download/*': {
+                target: 'http://localhost:8080',
                 ws: true,
                 changeOrigin: true
             }
