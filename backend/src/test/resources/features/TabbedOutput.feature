@@ -18,6 +18,6 @@ Feature: Produce Tabbed Output File from text input file
     And the number of headings is correct
 
   Scenario: Rows are transposed to correct position
-    Given A large input file
-    When the large file is processed
+    Given ordered input
+    When the ordered input is processed
     Then each row is transposed into the correct position

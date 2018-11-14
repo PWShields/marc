@@ -19,8 +19,9 @@ public class TabbedOutputStepDefinitions {
 
     String fileName = "";
     String largeFile = "";
+    String orderedFile = "";
 
-    int expectedNumberOfRows = 145;
+    int expectedNumberOfRows = 146;
 
     TabbedResultTable tabbedResultTable;
 
@@ -34,14 +35,23 @@ public class TabbedOutputStepDefinitions {
         largeFile = "src/test/resources/data/manyRecordInput.txt";
     }
 
+    @Given("ordered input")
+    public void ordered_input() { orderedFile = "src/test/resources/data/testResultRowOrder.txt"; }
+
     @When("the file is processed")
     public void the_file_is_processed() {
+
         tabbedResultTable = marcTextService.transFormToTabbedOutPut(fileName);
     }
 
     @When("the large file is processed")
     public void the_large_file_is_processed() {
         tabbedResultTable = marcTextService.transFormToTabbedOutPut(largeFile);
+    }
+
+    @When("the ordered input is processed")
+    public void the_ordered_input_is_processed() {
+        tabbedResultTable = marcTextService.transFormToTabbedOutPut(orderedFile);
     }
 
     @Then("the record id is populated")
@@ -68,7 +78,8 @@ public class TabbedOutputStepDefinitions {
     @Then("each row is transposed into the correct position")
     public void each_row_is_transposed_into_the_correct_position() {
         String row4_650Tag1 = tabbedResultTable.getResultRows().get(2).getPrintRow().get(2);
-        Assert.assertEquals("$a Epitaphs $z Malaysia $z Pulau Pinang (State)", row4_650Tag1);;
+        Assert.assertEquals("$a Epitaphs $z Malaysia $z Pulau Pinang (State)", row4_650Tag1);
+        ;
     }
 
 
