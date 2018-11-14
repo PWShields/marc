@@ -310,6 +310,20 @@
 245 1 0 $a Penang : $b through gilded doors / $c Julia de Bierre ; photography by James Bain Smith.
 650   0 $a Pinang Island (Pinang) $x History.
 
+001 TESTROW
+245 0   $a 245.1
+650 1 0 $a 650.1
+650 0   $a 650.2
+650     $a 650.3
+650 0   $a 650.4
+650 0 0 $a 650.5
+650 1 0 $a 650.6 $b 650.6
+650 0 1 $a 650.7
+650   1 $z 650.8
+650   0 $a 650.9
+650 0   $a 650.10
+650 1   $a 650.11
+
 001 6854957
 245 1 0 $a Memento mori : $b art, medicine & the body / $c Lauren Black ; catalogue essay, Peter Timms.
 650   0 $a Memento mori $z Tasmania $v Exhibitions.

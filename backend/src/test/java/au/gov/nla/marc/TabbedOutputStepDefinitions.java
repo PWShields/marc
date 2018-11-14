@@ -65,5 +65,11 @@ public class TabbedOutputStepDefinitions {
         Assert.assertEquals(13, tabbedResultTable.getHeaderRow().getColumnHeadings().size());
     }
 
+    @Then("each row is transposed into the correct position")
+    public void each_row_is_transposed_into_the_correct_position() {
+        String row4_650Tag1 = tabbedResultTable.getResultRows().get(2).getPrintRow().get(2);
+        Assert.assertEquals("$a Epitaphs $z Malaysia $z Pulau Pinang (State)", row4_650Tag1);;
+    }
+
 
 }

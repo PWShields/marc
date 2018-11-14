@@ -13,26 +13,55 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.*;
 
+/**
+ * The type Marc text service.
+ */
 @Service
 public class MarcTextServiceImpl implements MarcTextService {
 
     private static final Logger logger = LoggerFactory.getLogger(MarcTextServiceImpl.class);
 
+    /**
+     * The File reader service.
+     */
     FileReaderService fileReaderService;
+    /**
+     * The Tabbed result assembler service.
+     */
     TabbedResultAssemblerService tabbedResultAssemblerService;
 
+    /**
+     * The Record id field.
+     */
     String recordIdField = "001";
 
+    /**
+     * The Command fields.
+     */
     String[] commandFields = {"001", "002", "003", "004", "005", "006", "007", "008", "009"};
 
+    /**
+     * Instantiates a new Marc text service.
+     *
+     * @param fileReaderService            the file reader service
+     * @param tabbedResultAssemblerService the tabbed result assembler service
+     */
     public MarcTextServiceImpl(FileReaderService fileReaderService, TabbedResultAssemblerService tabbedResultAssemblerService) {
         this.fileReaderService = fileReaderService;
         this.tabbedResultAssemblerService = tabbedResultAssemblerService;
     }
 
-    @Override
+    @Override  //Main use case
     public TabbedResultTable transFormToTabbedOutPut(MultipartFile file) {
         InputRecords inputRecords = buildInputRecords(file);
+        addColumnHeadingsToInputRecords(inputRecords);
+        TabbedResultTable tabbedResultTable = tabbedResultAssemblerService.mapToTabbedResult(inputRecords);
+        return tabbedResultTable;
+    }
+
+    @Override  //test case support
+    public TabbedResultTable transFormToTabbedOutPut(String fileName) {
+        InputRecords inputRecords = buildInputRecords(fileName);
         addColumnHeadingsToInputRecords(inputRecords);
         TabbedResultTable tabbedResultTable = tabbedResultAssemblerService.mapToTabbedResult(inputRecords);
         return tabbedResultTable;
@@ -41,14 +70,6 @@ public class MarcTextServiceImpl implements MarcTextService {
     private InputRecords buildInputRecords(MultipartFile file) {
         List<String> fileRows = fileReaderService.readFile(file);
         return buildInputRecords(fileRows);
-    }
-
-    @Override
-    public TabbedResultTable transFormToTabbedOutPut(String fileName) {
-        InputRecords inputRecords = buildInputRecords(fileName);
-        addColumnHeadingsToInputRecords(inputRecords);
-        TabbedResultTable tabbedResultTable = tabbedResultAssemblerService.mapToTabbedResult(inputRecords);
-        return tabbedResultTable;
     }
 
     private InputRecords buildInputRecords(String fileName) {
