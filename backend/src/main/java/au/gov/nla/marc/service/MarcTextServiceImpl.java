@@ -11,10 +11,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 @Service
 public class MarcTextServiceImpl implements MarcTextService {
@@ -24,9 +21,9 @@ public class MarcTextServiceImpl implements MarcTextService {
     FileReaderService fileReaderService;
     TabbedResultAssemblerService tabbedResultAssemblerService;
 
-    //    @Todo: add all possible values here
     String recordIdField = "001";
 
+    String[] commandFields = {"001", "002", "003", "004", "005", "006", "007", "008", "009"};
 
     public MarcTextServiceImpl(FileReaderService fileReaderService, TabbedResultAssemblerService tabbedResultAssemblerService) {
         this.fileReaderService = fileReaderService;
@@ -75,8 +72,13 @@ public class MarcTextServiceImpl implements MarcTextService {
                     inputRecord.setType(tag);
                     inputRecord.setRecordId(StringUtils.substringAfter(row, " "));
                 } else {
-                    inputRecord.getTags().put((tag), "$" + StringUtils.substringAfter(row, "$"));
-                    updateTagCount(inputRecords, inputRecord);
+                    if (Arrays.stream(commandFields).anyMatch(tag::equals)) {
+                        inputRecord.getTags().put((tag), StringUtils.substringAfter(row, " "));
+                        updateTagCount(inputRecords, inputRecord);
+                    } else {
+                        inputRecord.getTags().put((tag), "$" + StringUtils.substringAfter(row, "$"));
+                        updateTagCount(inputRecords, inputRecord);
+                    }
                 }
                 lineNumber++;
             }
@@ -86,7 +88,6 @@ public class MarcTextServiceImpl implements MarcTextService {
 
         return inputRecords;
     }
-
 
     private void addColumnHeadingsToInputRecords(InputRecords inputRecords) {
         ArrayList<Tag> tagHeadings = inputRecords.getTagHeadings();
@@ -102,7 +103,6 @@ public class MarcTextServiceImpl implements MarcTextService {
                 .thenComparing(Tag::getTagPosition));
         inputRecords.setTagHeadings(tagHeadings);
     }
-
 
     private void updateTagCount(InputRecords inputRecords, InputRecord inputRecord) {
         HashMap<String, Integer> existingTagMaxs = inputRecords.getCountOfTags();
