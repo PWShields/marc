@@ -2,8 +2,10 @@ package au.gov.nla.marc.domain.input;
 
 import lombok.Data;
 
+import java.util.Comparator;
+
 @Data
-public class Tag {
+public class Tag implements Comparable<Tag> {
 
     String printableName;
 
@@ -18,5 +20,12 @@ public class Tag {
     }
 
     public Tag() {
+    }
+
+    @Override
+    public int compareTo(Tag otherTag) {
+        return Comparator.comparing(Tag::getTagNumber)
+                .thenComparing(Tag::getTagPosition)
+                .compare(this, otherTag);
     }
 }

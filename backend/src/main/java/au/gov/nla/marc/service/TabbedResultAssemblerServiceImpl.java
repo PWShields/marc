@@ -6,6 +6,7 @@ import au.gov.nla.marc.domain.input.Tag;
 import au.gov.nla.marc.domain.output.HeaderRow;
 import au.gov.nla.marc.domain.output.TabbedResultRow;
 import au.gov.nla.marc.domain.output.TabbedResultTable;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -29,9 +30,9 @@ public class TabbedResultAssemblerServiceImpl implements TabbedResultAssemblerSe
         for (TabbedResultRow row : resultRows) {
             TabbedResultRow modifiedResultRow = new TabbedResultRow(row);
             ArrayList<String> printRows = new ArrayList<>();
-            TreeMap<String, String> expandedTags = row.getExpandedTags();
+            TreeMap<Tag, String> expandedTags = row.getExpandedTags();
             printRows.add(row.getRecordId());
-            for (String key : expandedTags.keySet()) {
+            for (Tag key : expandedTags.keySet()) {
                 printRows.add(expandedTags.get(key));
             }
             modifiedResultRow.setPrintRow(printRows);
@@ -62,7 +63,7 @@ public class TabbedResultAssemblerServiceImpl implements TabbedResultAssemblerSe
                 ArrayList<String> values = new ArrayList(Arrays.asList(tags.get(eachTag).toArray()));
                 resultRow.getTags().put(eachTag, new ArrayList(Arrays.asList(tags.get(eachTag).toArray())));
                 for (int i = 0; i < values.size(); i++) {
-                    resultRow.getExpandedTags().put(eachTag + "." + (i + 1), values.get(i));
+                    resultRow.getExpandedTags().put(new Tag(eachTag + "." + (i + 1),eachTag, i+1), values.get(i));
                 }
             }
             TabbedResultRow modifiedResultRow = fleshOutExpandedTags(columnHeadings, resultRow);
@@ -74,8 +75,9 @@ public class TabbedResultAssemblerServiceImpl implements TabbedResultAssemblerSe
     private TabbedResultRow fleshOutExpandedTags(ArrayList<String> columnHeadings, TabbedResultRow resultRow) {
         TabbedResultRow modifiedResultRow = new TabbedResultRow(resultRow);
         for (String heading : columnHeadings) {
-            if (resultRow.getExpandedTags().containsKey(heading) == false) {
-                resultRow.getExpandedTags().put(heading, "");
+            Tag newHeading = new Tag(heading, StringUtils.substringBefore(heading,"."),Integer.valueOf(StringUtils.substringAfter(heading, ".")));
+            if (resultRow.getExpandedTags().containsKey(newHeading) == false) {
+                resultRow.getExpandedTags().put(newHeading, "");
             }
         }
         return modifiedResultRow;

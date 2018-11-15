@@ -1,5 +1,6 @@
 package au.gov.nla.marc.domain.output;
 
+import au.gov.nla.marc.domain.input.Tag;
 import lombok.Data;
 
 import java.util.ArrayList;
@@ -12,7 +13,7 @@ public class TabbedResultRow {
 
     TreeMap<String, ArrayList<String>> tags= new TreeMap<>();
 
-    TreeMap<String, String> expandedTags = new TreeMap<>();
+    TreeMap<Tag, String> expandedTags = new TreeMap<>();
 
     ArrayList<String> printRow = new ArrayList<>();
 

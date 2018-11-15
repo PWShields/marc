@@ -51,7 +51,7 @@ public class TabbedOutputStepDefinitions {
 
     @When("the ordered input is processed")
     public void the_ordered_input_is_processed() {
-        tabbedResultTable = marcTextService.transFormToTabbedOutPut(orderedFile);
+        tabbedResultTable = marcTextService.transFormToTabbedOutPut(largeFile);
     }
 
     @Then("the record id is populated")
@@ -77,9 +77,11 @@ public class TabbedOutputStepDefinitions {
 
     @Then("each row is transposed into the correct position")
     public void each_row_is_transposed_into_the_correct_position() {
-        String row4_650Tag1 = tabbedResultTable.getResultRows().get(2).getPrintRow().get(2);
-        Assert.assertEquals("$a Epitaphs $z Malaysia $z Pulau Pinang (State)", row4_650Tag1);
-        ;
+        String row61_650Tag4 = tabbedResultTable.getResultRows().get(61).getPrintRow().get(5);
+        String row61_650RecordId = tabbedResultTable.getResultRows().get(61).getPrintRow().get(0);
+        Assert.assertEquals("$a 650.4", row61_650Tag4);
+        Assert.assertEquals("TESTROW", row61_650RecordId);
+
     }
 
 
