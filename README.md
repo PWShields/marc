@@ -33,11 +33,12 @@ The output will be in the form:
 
 ```text
 001	245.1	650.1	650.2	650.3	650.4	650.5	650.6	650.7	650.8	650.9	650.10	650.11
-37068	$a Shame secrecy and silence : $b study of rape in Penang / $c co-ordinated and edited by Rohana Ariffin.	$a Rape $z Pinang.	$a Women $x Crimes against $z Pinang.				
 3416787	$a Penyata Juru Odit Negara. $p Negeri Pulau Pinang.	$a Finance, Public $z Malaysia $z Pinang $x Accounting $x Periodicals.										
 7461413	$a Epitaph : $b the Northam Road Protestant Cemetery : George Town, Penang / $c Marcus Langdon.	$a Epitaphs $z Malaysia $z Pulau Pinang (State)			$a Inscriptions $z Malaysia $z Pulau Pinang (State)	$a Christian cemeteries $z Malaysia $z Pulau Pinang (State)	
 ```
 This is suitable for importing into Excel.
+
+(Note the underlining assumptions are that the first value in the input row is a Marc Tag, the next values are Marc indicators which we through away and anything else(following the first $ sign) on each row is the content. Tag numbers 002 to 009 are treated slightly differently however should be processable (they have no $ sign)).
 
 ### Run Locally
 
