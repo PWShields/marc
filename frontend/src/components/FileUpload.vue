@@ -17,7 +17,7 @@
             </div>
         </v-layout>
         <!--UPLOAD-->
-        <form enctype="multipart/form-data" novalidate v-if="isInitial || isSaving">
+        <form enctype="multipart/form-data" novalidate v-if="isInitial || isSaving || isSuccess">
             <h4>Load file to convert to Excel tab delimited format</h4>
             <div class="dropbox">
                 <input type="file" :name="uploadFieldName" :disabled="isSaving"
@@ -39,7 +39,6 @@
             </div>
 
         </form>
-        <a ref="downloadlink" download="true" v-if="contenturl" :href="contenturl">Download file </a>
 
     </div>
 </template>
@@ -104,7 +103,6 @@
                     link.setAttribute('download', 'marc.txt'); //or any other extension
                     document.body.appendChild(link);
 
-                    this.currentStatus = STATUS_SAVING;
                 }).catch(function () {
                     console.log('FAILURE');
                 })
@@ -136,8 +134,8 @@
                     const url = window.URL.createObjectURL(new Blob([response.data]));
                     const link = document.createElement('a');
                     link.href = url;
-                    link.setAttribute('download', 'marc.txt'); //or any other extension
-                    document.body.appendChild(link);
+                     link.setAttribute('download', 'marc.txt'); //or any other extension
+                         document.body.appendChild(link);
                     link.click();
 
                 }).catch(function () {

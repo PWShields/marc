@@ -83,9 +83,9 @@ I normally run the backend separately and then the frontend while I am developin
 
 ### Tech Stack
 
- - Spring - Boot, Data
+ - Spring - Boot
  - Java 8
-  - Maven
+ - Maven
  - VueJS
  - Vuetify
  - Cucumber
