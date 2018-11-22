@@ -18,10 +18,10 @@ resources:
   - name: ramdisk1
     volume_type: tmpfs
     size_gb: 0.5
-# Automatic Scaling
-automatic_scaling:
-  min_num_instances: 1
-  max_num_instances: 1
-  cool_down_period_sec: 180
-  cpu_utilization:
-    target_utilization: 0.
+## Automatic Scaling
+#automatic_scaling:
+#  min_num_instances: 1
+#  max_num_instances: 1
+#  cool_down_period_sec: 180
+#  cpu_utilization:
+#    target_utilization: 0.6
