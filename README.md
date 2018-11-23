@@ -195,3 +195,5 @@ Once it is completed you can go to the deployed instance with gcloud app browse 
 gcloud app logs tail -s default
 
 Gcloud gives excellent feedback, so if something goes wrong please read what it is telling you.
+
+NB: Google App Engine Flex is their most expensive offering due to ease of use, consider using their Kubernetes offering instead, where you have to do a little more upfront work but have much more control and save quite a bit. For example this app costs A$67 per month on Flex and would be about A$44 on Kubernetes.
