@@ -27,7 +27,7 @@ The input file must be in the form:
 245 0 0 $a Penyata Juru Odit Negara. $p Negeri Pulau Pinang.
 650   0 $a Finance, Public $z Malaysia $z Pinang $x Accounting $x Periodicals.
 ```
-This is the ouput from the related application MarcGrep application.
+The above is the ouput from the related application MarcGrep application.
 
 The output will be in the form:
 
