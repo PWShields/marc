@@ -39,7 +39,7 @@ public class ExportController {
         logger.info("File received");
         TabbedResultTable outputData = marcTextService.transFormToTabbedOutPut(file);
 
-        String csvFileName = "marcTabbed.txt";
+        String csvFileName = "marcTabbed.csv";
         response.setContentType("text/csv");
 
         String headerKey = "Content-Disposition";
@@ -53,7 +53,7 @@ public class ExportController {
 
         ICsvListWriter csvListWriter = null;
         try {
-            csvListWriter = new CsvListWriter(response.getWriter(), CsvPreference.TAB_PREFERENCE);
+            csvListWriter = new CsvListWriter(response.getWriter(), CsvPreference.EXCEL_PREFERENCE);
 
             csvListWriter.write(headerRow);
             for (TabbedResultRow row : resultRows) {
