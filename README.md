@@ -27,7 +27,7 @@ The input file must be in the form:
 245 0 0 $a Penyata Juru Odit Negara. $p Negeri Pulau Pinang.
 650   0 $a Finance, Public $z Malaysia $z Pinang $x Accounting $x Periodicals.
 ```
-This is the ouput from the related application MarcGrep application.
+The above is the ouput from the related application MarcGrep application.
 
 The output will be in the form:
 
@@ -160,3 +160,38 @@ Additional steps to use Vuetify (a library with front end components already the
 1. run vue add vuetify
 
 (alternatively run vue init vuetifyjs/webpack frontend --no-git instead of step 9 above) 
+
+##### Deploy Spring Boot & VueJS Application to Google Cloud App Engine Flex
+
+###### Pre-requisites
+
+1. Google Cloud Account
+2. Google Cloud SDK installed on your local machine
+3. Install app-engine locally
+	gcloud components install app-engine-java
+4. Create new project in browser based Google Cloud Dashboard (remember project name)
+	gcloud config set compute/region australia-southeast1
+5. Branch your project and add App Engine specific configuration
+	Add src/main/appengine/app.yaml and configure
+	Add appengine-mavin-plugin to parent POM plugins - this includes the Google cloud project created in step 4
+	Add spring-cloud-gcp-starter to backend POM dependencies 
+	Set Backend packaging to be a jar
+
+###### Deploy
+
+1. Change to root directory of project
+2. mvn clean install (this builds project and copies the frontend components into the backend jar)
+3. Change to backend directory
+4. Check region is Australia
+	gcloud config list compute/region
+5. Change region if necessary
+	gcloud config set compute/region australia-southeast1
+6. mvn appengine:deploy
+
+The last step will take a while as Google will build a Docker image for you, create your deployment environment
+and then deploy your application to the cloud app you specified in your parent POM.
+
+Once it is completed you can go to the deployed instance with gcloud app browse or view the logs with
+gcloud app logs tail -s default
+
+Gcloud gives excellent feedback, so if something goes wrong please read what it is telling you.
