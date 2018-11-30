@@ -4,4 +4,4 @@ mvn clean package
 
 mkdir -p $1/lib
 
-cp target/*.jar $1/lib/marc.jar
+cp backend/target/*.jar $1/lib/marc.jar
