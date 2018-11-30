@@ -80,6 +80,19 @@ This starts the front end, useful when you want instant feedback on frontend onl
 
 I normally run the backend separately and then the frontend while I am developing as the two can still communicate even though the app hasn't been packaged into one jar.
 
+#### Deploy using JVMCTL
+
+sudo jvmctl deploy marc-converter
+
+Currently running on 
+
+```bash
+http://hammer.nla.gov.au:40109/#/
+```
+
+Please see nla-deploy.sh and jvmctl.sh for example of how to run as deployable jar with embedded Tomcat.
+
+NB: See gcp branch for example of how to deploy to cloud.
 
 ### Tech Stack
 
