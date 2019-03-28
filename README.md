@@ -159,3 +159,5 @@ Additional steps to use Vuetify (a library with front end components already the
 1. run vue add vuetify
 
 (alternatively run vue init vuetifyjs/webpack frontend --no-git instead of step 9 above) 
+
+Add Vuetify before you start working on your App as installation may override your changes.
